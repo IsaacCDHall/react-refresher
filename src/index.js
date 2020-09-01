@@ -4,13 +4,20 @@ import "./index.css";
 
 class Square extends React.Component {
   render() {
-    return <button className="square">{/* TODO */}</button>;
+    let that = this;
+    return <button className="square" onClick={
+      function(){
+         alert(`${that.props.value}`)
+        }
+    }>
+      {this.props.value}
+      </button>;
   }
 }
 
 class Board extends React.Component {
   renderSquare(i) {
-    return <Square />;
+    return <Square value={i}/>;
   }
 
   render() {
