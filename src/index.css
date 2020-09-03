@@ -18,15 +18,19 @@ ul {
   background: #fff;
   border: 1px solid #999;
   float: left;
-  font-size: 96px;
+  font-size: 34px;
+  /* font-size: 96px; */
   font-weight: bold;
-  line-height: 136px;
-  height: 136px;
+  /* line-height: 136px; */
+  line-height: 34px;
+  height: 34px;
+  /* height: 136px; */
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 136px;
+  width: 34px;
+  /* width: 136px; */
 }
 .square:focus {
   outline: none;
